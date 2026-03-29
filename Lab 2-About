@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab 2-About</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>About Lab2</h1>
+      <p>This lab 2 About is based on coding for the purpose of Lab2. All information
+        needed for this lab will be contained in this area. We will need to input a navigation
+        table in this lab. We want to use a relative path for the URL and create a link to email.</p>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mailto:s00043039@acad.tri-c.edu">Send Email</a></li>
+                <li><a href="https://github.com/shalandabrown/WebProgramming/lab2-home.html">Lab2Home</a></li>
+              </ul>
+                </nav>
+
+
+  </body>
+</html>
