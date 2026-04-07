@@ -1,0 +1,61 @@
+form action="/my-handling-form-page" method="post">
+  <p>
+    <label for="customer name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+  </p>
+  <p>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email" />
+  </p>
+<p> 
+<label for="coffee type">Choose a coffe:</label>
+<select name="coffee" id="coffee">
+  <option value="americano>American</option>
+  <option value="latte">Latte</option>
+  <option value="cappucino" selected>Cappucino</option>
+  <option value="espresso” disabled>Espresso</option>
+</select>
+</p>
+<p>
+<form>
+  <input type="radio" id="small" name="size" value="small">
+  <label for="small">Size</label><br>
+</form>
+</p>
+<p>
+<form>
+  <input type="radio" id="medium" name="size" value="medium">
+  <label for="medium">Size</label><br>
+</form>
+</p>
+<p>
+<form>
+  <input type="radio" id="large" name="size" value="large">
+  <label for="large">Size</label><br>
+</form>
+</p>
+<p>
+<input type="checkbox" id="whipcream" name="Extras" value="yes">
+<label for="Extras">Extras</label>
+</p>
+<p>
+<input type="checkbox" id="extra shot" name="Extras" value="yes">
+<label for="Extras">Extras</label>
+</p>
+<p>
+<input type="checkbox" id="almond milk" name="Extras" value="yes">
+<label for="Extras">Extras</label>
+</p>
+<p>
+<input type="checkbox" id="oat milk" name="Extras" value="yes">
+<label for="Extras">Extras</label>
+</p>
+<p>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </p>
+<form action="/submit-data" method="POST">
+  <button type="submit">Send Message</button>
+</form>
+
+</form>
