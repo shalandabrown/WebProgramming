@@ -1,10 +1,10 @@
 <form action="/my-handling-form-page" method="post"> 
   <p> 
-    <label for="customer name">Name:</label> 
+    <label for="name">Name:</label> 
     <input type="text" id="name" name="user_name" /> 
   </p> 
   <p> 
-    <label for="mail">Email:</label> 
+    <label for="email">Email:</label> 
     <input type="email" id="mail" name="user_email" /> 
   </p> 
   <p>  
@@ -17,18 +17,16 @@
     </select> 
   </p> 
   <p> 
-    <input type="radio" id="small" name="small" value="small"> 
+    <input type="radio" id="small" size="small" value="small"> 
     <label for="small">Size</label><br> 
   </p> 
   <p> 
-    <input type="radio" id="medium" name="medium" value="medium"> 
+    <input type="radio" id="medium" size="medium" value="medium"> 
     <label for="medium">Size</label><br> 
   </p> 
   <p> 
-    <form> 
-      <input type="radio" id="large" name="large" value="large"> 
+      <input type="radio" id="large" size="large" value="large"> 
       <label for="large">Size</label><br>
-    </form> 
   </p> 
   <p> 
     <input type="checkbox" id="whipcream" name="Extras" value="yes"> 
