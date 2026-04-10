@@ -1,0 +1,57 @@
+<form action="/my-handling-form-page" method="post"> 
+  <p> 
+    <label for="customer name">Name:</label> 
+    <input type="text" id="name" name="user_name" /> 
+  </p> 
+  <p> 
+    <label for="mail">Email:</label> 
+    <input type="email" id="mail" name="user_email" /> 
+  </p> 
+  <p>  
+    <label for="coffee type">Choose a coffe:</label> 
+    <select name="coffee" id="coffee"> 
+    <option value="americano>American</option> 
+    <option value="latte">Latte</option> 
+    <option value="cappucino" selected>Cappucino</option> 
+    <option value="espresso” selected>Espresso</option> 
+    </select> 
+  </p> 
+  <p> 
+    <input type="radio" id="small" name="small" value="small"> 
+    <label for="small">Size</label><br> 
+  </p> 
+  <p> 
+    <input type="radio" id="medium" name="medium" value="medium"> 
+    <label for="medium">Size</label><br> 
+  </p> 
+  <p> 
+    <form> 
+      <input type="radio" id="large" name="large" value="large"> 
+      <label for="large">Size</label><br>
+    </form> 
+  </p> 
+  <p> 
+    <input type="checkbox" id="whipcream" name="Extras" value="yes"> 
+    <label for="Extras">whipcream</label> 
+  </p> 
+  <p> 
+    <input type="checkbox" id="extrashot" name="Extras" value="yes"> 
+    <label for="Extras">extrashot</label> 
+  </p> 
+  <p> 
+    <input type="checkbox" id="almondmilk" name="Extras" value="yes"> 
+    <label for="Extras">almondmilk</label> 
+  </p> 
+  <p> 
+    <input type="checkbox" id="oatmilk" name="Extras" value="yes"> 
+    <label for="Extras">oatmilk</label> 
+  </p> 
+  <p> 
+    <label for="msg">specialinstruction:</label> 
+    <textarea id="msg" name="user_message"></textarea> 
+  </p> 
+<form action="/https://www.w3schools.com/action_page.php " method="get"> 
+  <button type="submit">sendmessage</button> 
+</form> 
+
+ 
